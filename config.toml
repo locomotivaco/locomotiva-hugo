@@ -1,4 +1,4 @@
-baseurl = "https://locomotiva.co/"
+baseurl = "http://locomotiva.co/"
 languageCode = "en-us"
 title = "locomotiva"
 theme = "locotheme"
