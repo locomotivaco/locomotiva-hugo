@@ -44,16 +44,43 @@
       </div>
     </div>
 
-    <header class="blog-header">
-      <div class="container">
-        <h1 class="blog-title"><a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | safeHTML }}</a></h1>
-        {{ if .Site.Params.description }}<p class="lead blog-description">{{ .Site.Params.description | markdownify }}</p>{{ end }}
-      </div>
-    </header>
+    <section class="index-masthead section">
+        <div class="container">
+            <h1>Creating awesome software solutions for your business.</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Do papel até o mercado:</h3>
+                    <p>Ajudamos fundadores a levarem suas ideias de rabiscos no caderno até empresas prontas para o mercado e para impactar o mundo de maneira significativa.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Time remoto:</h3>
+                    <p>Nós provemos empresas estabelecidas e novas startups com o time tecnológico e a gerência de projetos relacionados necessária para alcançar objetivos e maximizar esforços de uma maneira inteligente e moderna.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Desenvolvimento de produto:</h3>
+                    <p>Nós amamos criar produtos e soluções baseadas em softwares inovadores e, assim, levarmos sua ideia para o próximo nível. De novos fundadores a profissionais experientes, colaborar com você para atingir resultados incríveis é o que nos movimenta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="container">
-      
-    </div> {{ "<!-- /.container -->" | safeHTML }}
+    <section class="index-work section">
+        <div class="container">
+            <h2>Nosso trabalho</h2>
+            <p>Nós da Locomotiva somos apaixonados por desenvolver e construir grandes ideias. Nosso time está sempre pronto para utilizar as mais recentes práticas, linguagens e tecnologias disponíveis para seu projeto, provendo uma grande fama de diferentes serviços que se adaptam às necessidades de sua companhia.</p>
+        </div>
+    </section>
+
+    <section class="index-portfolio section">
+        <div class="container">
+            <h2>LUZTR</h2>
+            <p>After failed and wasteful interactions with other software development companies, Luztr became our client. At this point, we became their remote team, including demand based CTO services.</p>
+            <p>We immersed ourselves in the company and its operations in order to better understand the demands and challenges faced.</p>
+            <p>After only three months and much better used resources, the client is now launching it’s fully operational and multi platform supported progressive app.</p>
+            <p>We also shared our startup mindset with the founders and employees, showing how to get better results in more cost and time effective ways.</p>
+            <p>Currently, we provide Luztr with all their CTO and software remote team services.</p>
+        </div>
+    </section>
 
     <footer class="blog-footer">
       <p>
