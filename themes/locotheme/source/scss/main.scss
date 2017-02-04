@@ -2,7 +2,7 @@
  * From the Bootstrap v4 alpha blog example
  * See: http://v4-alpha.getbootstrap.com/examples/blog/blog.css
  */
-
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
 /*
  * Globals
  */
@@ -183,4 +183,46 @@ section + #disqus_thread {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-masthead {
+  margin-bottom: 0;
+}
+.index-masthead {
+  padding: 10vh 0;
+  background: #222;
+  -webkit-font-smoothing: antialiased;
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 80px;
+    font-family: 'Rubik', sans-serif;
+    color: #888;
+    &.logo {
+      font-size: 2rem;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+      color: #555;
+    }
+  }
+  h3 {
+    font-size: 1.25rem;
+    color: #555;
+  }
+  p {
+    font-size: 0.9rem;
+  }
 }
