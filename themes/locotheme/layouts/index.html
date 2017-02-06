@@ -21,6 +21,7 @@
     {{ if .Site.Params.cookie_consent_info_url }}
     {{ partial "cookie-consent.html" . }}
     {{ end }}
+    <script src="{{ .Site.BaseURL }}js/bg.js" crossorigin="anonymous" async></script>
 
     {{ partial "head-custom.html" . }}
   </head>
@@ -45,7 +46,8 @@
     </div>
 
     <section class="index-masthead section">
-        <div class="container">
+        <canvas class='connecting-dots'></canvas>
+        <div class="container content">
             <h1 class="logo">locomotiva.co</h1>
             <h1>Creating awesome software solutions for your business.</h1>
             <div class="row">
@@ -69,35 +71,79 @@
         <div class="container">
             <h2>Nosso trabalho</h2>
             <p>Nós da Locomotiva somos apaixonados por desenvolver e construir grandes ideias. Nosso time está sempre pronto para utilizar as mais recentes práticas, linguagens e tecnologias disponíveis para seu projeto, provendo uma grande fama de diferentes serviços que se adaptam às necessidades de sua companhia.</p>
+            
+            <div class="clients-row">
+                <div class="col-sm-2">
+                    <img src="/img/acegroup.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-2">
+                    <img src="/img/atualizecar.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-2">
+                    <img src="/img/bandtripper.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-2">
+                    <img src="/img/eun.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-2">
+                    <img src="/img/lefooding.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="index-clients section">
+        <div class="container">
         </div>
     </section>
 
     <section class="index-portfolio section">
-        <div class="container">
-            <h2>LUZTR</h2>
-            <p>After failed and wasteful interactions with other software development companies, Luztr became our client. At this point, we became their remote team, including demand based CTO services.</p>
-            <p>We immersed ourselves in the company and its operations in order to better understand the demands and challenges faced.</p>
-            <p>After only three months and much better used resources, the client is now launching it’s fully operational and multi platform supported progressive app.</p>
-            <p>We also shared our startup mindset with the founders and employees, showing how to get better results in more cost and time effective ways.</p>
-            <p>Currently, we provide Luztr with all their CTO and software remote team services.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6" style="background-color:rgb(0,239,242);">
+                </div>
+                <div class="col-sm-6" style="padding: 5vh;">
+                    <img src="/img/luztr.png" alt="" class="img-fluid" style="max-width: 90px;">
+                    <h2>LUZTR</h2>
+                    <p>After failed and wasteful interactions with other software development companies, Luztr became our client. At this point, we became their remote team, including demand based CTO services.</p>
+                    <p>We immersed ourselves in the company and its operations in order to better understand the demands and challenges faced.</p>
+                    <p>After only three months and much better used resources, the client is now launching it’s fully operational and multi platform supported progressive app.</p>
+                    <p>We also shared our startup mindset with the founders and employees, showing how to get better results in more cost and time effective ways.</p>
+                    <p>Currently, we provide Luztr with all their CTO and software remote team services.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer class="blog-footer">
-      <p>
-      {{ if .Site.Copyright }}
-      {{ .Site.Copyright | markdownify }}
-      {{ else }}
-      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
-      {{ end }}
-      </p>
-      <p>
-      <a href="#">{{ i18n "backToTop" }}</a>
-      </p>
+    <section class="index-advantages section">
+        <div class="container">
+            <h4>Background em startups</h4>
+            <p>Nosso background em startups nos dá o diferencial de estarmos sempre atualizados e em contato com toda nova tecnologia valiosa.</p>
+            <p>Temos o entendimento necessário para entender os usuários e seus hábitos de consumo.</p>
+            
+            <h4>Você focado em suas operações</h4>
+            <p>Com a gente, você tem um parceiro de verdade que estará sempre trabalhando para melhorar o software da empresa.</p>
+            <p>Sem preocupações com gerenciamento de seus projetos de tecnologia ou supervisão constante, nós entendemos suas necessidades e apresentamos resultados palpáveis.</p>
+            
+            <h4>Trabalho remoto</h4>
+            <p>Nosso time trabalha com produtividade máxima e no ambiente correto, sem acrescentar custos para sua logística diária.</p>
+            <p>Nós aceitamos apenas projetos nos quais nós realmente acreditamos, por isso, você pode ficar tranquilo com a certeza de que tem o time certo do seu lado.</p>
+        </div>
+    </section>
+
+    <footer class="footer-main section">
+        <div class="container">
+            <h2>Vamos falar do seu projeto</h2>
+
+            <p>Estamos sempre à procura de ideias, projetos e desafios novos e interessantes de todo o mundo.</p>
+            <p>Com nosso time remoto, não importa onde você está.</p>
+            <p>Vamos falar dos projetos que te movem.</p>
+            <p>Juntos, podemos criar grandes empresas, produtos e serviços que deixam o mundo ainda melhor!</p>
+
+            <a href="#">Fale com a gente.</a>
+
+            <!-- <a href="#">{{ i18n "backToTop" }}</a> -->
+        </div>
     </footer>
-
   </body>
-
 </html>
-
-{{- /* vim: set ts=2 sw=2 et: */}}

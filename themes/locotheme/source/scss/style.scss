@@ -2,6 +2,18 @@
 // see: node_modules/font-awesome/scss/font-awesome.scss
 @import 'source/scss/font-awesome';
 
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
+$headings-font-family: 'Rubik';
+$headings-font-weight: 400;
+// $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+// $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+// $font-family-base:        $font-family-sans-serif !default;
+// $brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+// $brand-success:         #5cb85c !default;
+// $brand-info:            #5bc0de !default;
+// $brand-warning:         #f0ad4e !default;
+// $brand-danger:          #d9534f !default;
+
 // selectively import components we need from bootstrap
 // see: node_modules/bootstrap/scss/bootstrap.scss
 @import 'source/scss/bootstrap';
