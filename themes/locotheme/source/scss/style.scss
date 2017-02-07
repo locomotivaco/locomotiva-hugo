@@ -21,3 +21,7 @@ $headings-font-weight: 400;
 
 // local style overrides
 @import 'source/scss/main';
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
