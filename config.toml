@@ -4,7 +4,7 @@ title = "locomotiva"
 theme = "locotheme"
 paginate = 5
 copyright = "NOUS"
-googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-19971072-16"
 disqusShortname = "XYW"
 
 [permalinks]

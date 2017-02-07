@@ -28,7 +28,7 @@
 
   <body>
 
-    <div class="blog-masthead">
+    <!-- <div class="blog-masthead">
       <div class="container">
         <nav class="nav blog-nav">
           <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "home" }}</a>
@@ -43,7 +43,7 @@
           {{ end }}
         </nav>
       </div>
-    </div>
+    </div> -->
 
     <section class="index-masthead section">
         <canvas class='connecting-dots'></canvas>
@@ -117,20 +117,24 @@
 
     <section class="index-advantages section">
         <div class="container">
-            <span class="icon-rocket"></span>
-            <h4>Background em startups</h4>
-            <p>Nosso background em startups nos dá o diferencial de estarmos sempre atualizados e em contato com toda nova tecnologia valiosa.</p>
-            <p>Temos o entendimento necessário para entender os usuários e seus hábitos de consumo.</p>
-            
-            <span class="icon-sale"></span>
-            <h4>Você focado em suas operações</h4>
-            <p>Com a gente, você tem um parceiro de verdade que estará sempre trabalhando para melhorar o software da empresa.</p>
-            <p>Sem preocupações com gerenciamento de seus projetos de tecnologia ou supervisão constante, nós entendemos suas necessidades e apresentamos resultados palpáveis.</p>
-            
-            <span class="icon-target"></span>
-            <h4>Trabalho remoto</h4>
-            <p>Nosso time trabalha com produtividade máxima e no ambiente correto, sem acrescentar custos para sua logística diária.</p>
-            <p>Nós aceitamos apenas projetos nos quais nós realmente acreditamos, por isso, você pode ficar tranquilo com a certeza de que tem o time certo do seu lado.</p>
+            <div class="col-sm-8 offset-sm-2 justify-content-center">
+                <h5>Vantagens</h5>
+
+                <span class="icon-rocket"></span>
+                <h4>Background em startups</h4>
+                <p>Nosso background em startups nos dá o diferencial de estarmos sempre atualizados e em contato com toda nova tecnologia valiosa.</p>
+                <p>Temos o entendimento necessário para entender os usuários e seus hábitos de consumo.</p>
+                
+                <span class="icon-sale"></span>
+                <h4>Você focado em suas operações</h4>
+                <p>Com a gente, você tem um parceiro de verdade que estará sempre trabalhando para melhorar o software da empresa.</p>
+                <p>Sem preocupações com gerenciamento de seus projetos de tecnologia ou supervisão constante, nós entendemos suas necessidades e apresentamos resultados palpáveis.</p>
+                
+                <span class="icon-target"></span>
+                <h4>Trabalho remoto</h4>
+                <p>Nosso time trabalha com produtividade máxima e no ambiente correto, sem acrescentar custos para sua logística diária.</p>
+                <p>Nós aceitamos apenas projetos nos quais nós realmente acreditamos, por isso, você pode ficar tranquilo com a certeza de que tem o time certo do seu lado.</p>
+            </div>
         </div>
     </section>
 
