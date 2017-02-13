@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 
@@ -13,7 +14,7 @@
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
     {{ "<!-- combined, minified CSS -->" | safeHTML }}
-    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet" integrity="{{ .Site.Data.sri.style}}" crossorigin="anonymous">
+    <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet" crossorigin="anonymous">
 
     {{ if .RSSLink }}
     {{ "<!-- RSS 2.0 feed -->" | safeHTML }}
