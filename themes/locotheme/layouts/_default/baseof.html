@@ -22,10 +22,6 @@
 
     {{ template "_internal/google_analytics_async.html" . }}
 
-    {{ if .Site.Params.cookie_consent_info_url }}
-    {{ partial "cookie-consent.html" . }}
-    {{ end }}
-
     {{ partial "head-custom.html" . }}
   </head>
 
@@ -44,6 +40,7 @@
           <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
           {{ end }}
           {{ end }}
+          <a class="nav-link" href="/categories/gerenciamento/">Blog</a>
         </nav>
       </div>
     </div>
@@ -57,7 +54,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 blog-main">
+        <div class="col-sm-10 offset-sm-1 blog-main">
 
           {{ block "main" . }}
           <!-- The part of the page that begins to differ between templates -->
@@ -65,20 +62,10 @@
 
         </div> {{ "<!-- /.blog-main -->" | safeHTML }}
 
-        {{ partial "sidebar.html" . }}
-
       </div> {{ "<!-- /.row -->" | safeHTML }}
     </div> {{ "<!-- /.container -->" | safeHTML }}
 
     <footer class="blog-footer">
-      <p>
-      {{ if .Site.Copyright }}
-      {{ .Site.Copyright | markdownify }}
-      {{ else }}
-      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
-      {{ end }}
-      </p>
-      <p>
       <a href="#">{{ i18n "backToTop" }}</a>
       </p>
     </footer>

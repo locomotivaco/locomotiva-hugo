@@ -1,5 +1,3 @@
 {
-  "style": "static/css/style.css",
-  "cookieconsentcss": "static/css/cookieconsent.min.css",
-  "cookieconsentjs": "static/js/cookieconsent.min.js"
+  "style": "static/css/style.css"
 }

@@ -5,7 +5,7 @@
   translation: "Home"
 
 - id: recentPosts
-  translation: "Post Recents"
+  translation: "Posts Recentes"
 
 - id: readMore
   translation: "Leia Mais →"
@@ -23,7 +23,7 @@
   translation: "Próxima página"
 
 - id: cookieMessage
-  translation: "Este site usa coockies."
+  translation: "Este site usa cookies."
 
 - id: cookieLink
   translation: "Saiba mais."

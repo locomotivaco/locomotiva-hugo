@@ -1,9 +1,5 @@
-// selectively import components we need from font-awesome
-// see: node_modules/font-awesome/scss/font-awesome.scss
-@import 'source/scss/font-awesome';
-
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
-
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 $headings-font-family: 'Rubik';
 $headings-font-weight: 400;
 // $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;

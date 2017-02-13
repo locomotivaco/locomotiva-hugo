@@ -1,11 +1,10 @@
 baseurl = "http://locomotiva.co/"
-languageCode = "en-us"
+languageCode = "pt"
 title = "locomotiva"
 theme = "locotheme"
-paginate = 5
-copyright = "NOUS"
+paginate = 8
 googleAnalytics = "UA-19971072-16"
-disqusShortname = "XYW"
+disqusShortname = "locomotivaco"
 
 [permalinks]
   post = "/:year/:month/:title/"
@@ -31,7 +30,7 @@ disqusShortname = "XYW"
   author = "João Pedro"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "NOUSSSS"
+  # description = "NOUSSSS"
 
   # Format dates with Go's time formatting
   date_format = "Mon Jan 02, 2006"
@@ -79,10 +78,9 @@ disqusShortname = "XYW"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
-#DefaultContentLanguage = "en"
+DefaultContentLanguage = "pt"
 
-# Languages to render
-#[languages.en]
-#[languages.bg]
+[languages.en]
+[languages.pt]
 
 # vim: ts=2 sw=2 et
