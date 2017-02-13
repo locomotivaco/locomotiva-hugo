@@ -2,10 +2,14 @@
 title = "Guia para Construir seu MVP"
 description = "Ideia validada, conceitos encaminhados e seu projeto está quase saindo do papel! O que fazer agora?"
 tags = ["mvp", "validação"]
-date = "2017-01-13"
+date = "2017-01-08 14:15:00"
 categories = ["Gerenciamento"]
 menu = "main"
 +++
+
+*Ideia validada, conceitos encaminhados e seu projeto está quase saindo do papel!*
+
+*O que fazer agora?*
 
 ## Após a Validação
 

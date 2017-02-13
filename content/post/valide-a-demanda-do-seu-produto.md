@@ -1,11 +1,15 @@
 +++
 title = "Valide a Demanda do seu Produto"
-description = "Tão importante quanto encontrar sua grande ideia ou projeto, é descobrir o quanto as pessoas verdadeiramente precisam do seu produto. Para isso, você precisa responder uma grande pergunta: Ele realmente resolverá um problema? "
+description = "Tão importante quanto encontrar sua grande ideia ou projeto, é descobrir o quanto as pessoas verdadeiramente precisam do seu produto. Para isso, você precisa responder uma grande pergunta: Ele realmente resolverá um problema?"
 tags = ["mvp", "validação", "análise"]
-date = "2017-01-13"
+date = "2017-01-13 16:10:00"
 categories = ["Gerenciamento"]
 menu = "main"
 +++
+
+*Tão importante quanto encontrar sua grande ideia ou projeto, é descobrir o quanto as pessoas verdadeiramente precisam do seu produto.*
+
+*Para isso, você precisa responder uma grande pergunta: Ele realmente resolverá um problema?*
 
 ## Antes de tudo, Valide
 

@@ -40,15 +40,15 @@
           <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
           {{ end }}
           {{ end }}
-          <a class="nav-link" href="/categories/gerenciamento/">Blog</a>
+          <a class="nav-link active" href="/categories/gerenciamento/">Blog</a>
         </nav>
       </div>
     </div>
 
     <header class="blog-header">
       <div class="container">
-        <h1 class="blog-title"><a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | safeHTML }}</a></h1>
-        {{ if .Site.Params.description }}<p class="lead blog-description">{{ .Site.Params.description | markdownify }}</p>{{ end }}
+        <h1 class="blog-title"><a href="{{ .Site.BaseURL }}" rel="home">blog da LOCOMOTIVA</a></h1>
+        <p class="lead blog-description">Creating awesome software solutions for your business.</p>
       </div>
     </header>
 
@@ -65,9 +65,22 @@
       </div> {{ "<!-- /.row -->" | safeHTML }}
     </div> {{ "<!-- /.container -->" | safeHTML }}
 
-    <footer class="blog-footer">
-      <a href="#">{{ i18n "backToTop" }}</a>
-      </p>
+    <footer class="newsletter-bar">
+      <div class="container">
+        <form action="//joaonetto.us10.list-manage.com/subscribe/post?u=0cda323cac6c24c0692f6faca&amp;id=1641648db1" method="post" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
+          <label for="mce-EMAIL" class="">Receba nossos posts por email</label>
+          <input type="email" value="" name="EMAIL" class="form-control mb-2 mr-sm-2 mb-sm-0" id="mce-EMAIL" placeholder="seu email" required>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0cda323cac6c24c0692f6faca_1641648db1" tabindex="-1" value=""></div>
+            <input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary btn-sm">
+        </form>
+      </div>
+    </footer>
+
+    <footer class="main-footer">
+      <h5>locomotiva.co</h5>
+      <p><a href="#">Voltar ao topo</a></p>
+      <p><a href="/">Página Inicial</a></p>
+      <p><a href="/categories/gerenciamento">Blog</a></p>
     </footer>
 
   </body>
