@@ -11,13 +11,13 @@ disqusShortname = "XYW"
   post = "/:year/:month/:title/"
   page = "/:slug/"
 
-[[menu.sidebar]]
-  name = "Link 1"
-  url = "https://example.com"
+# [[menu.sidebar]]
+#   name = "Link 1"
+#   url = "https://example.com"
 
-[[menu.sidebar]]
-  name = "Link 2"
-  url = "https://example.org"
+# [[menu.sidebar]]
+#   name = "Link 2"
+#   url = "https://example.org"
 
 #[[menu.navbar]]
 #  name = "Link 1"
@@ -66,7 +66,7 @@ disqusShortname = "XYW"
 
   [params.sidebar]
     # Optional about block for sidebar (can be Markdown)
-    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+    # about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
 
     # How many posts to show on the sidebar (Default: 5)
     #num_recent_posts = 2
@@ -75,7 +75,7 @@ disqusShortname = "XYW"
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+    # twitter = "username"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
