@@ -205,7 +205,7 @@ section + #disqus_thread {
     padding-bottom: 10vh;
   }
 
-  @media (min-width: 576px) { 
+  @media (min-width: 576px) {
     .content {
       padding: 10vh 15px;
     }
@@ -213,7 +213,7 @@ section + #disqus_thread {
 
   background: #222;
   -webkit-font-smoothing: antialiased;
-  
+
   h1 {
     @media (min-width: 576px) { font-size: 4rem; }
     margin-bottom: 80px;
@@ -239,10 +239,10 @@ section + #disqus_thread {
   .container {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    @media (min-width: 576px) { 
+    @media (min-width: 576px) {
       padding: 10vh 0 10vh 0;
     }
-    
+
     .clients-row {
       text-align: center;
       margin-top: 50px;
@@ -255,7 +255,7 @@ section + #disqus_thread {
         }
       }
       img:first-child {
-        max-width: 100px;
+        max-width: 200px;
       }
     }
   }
@@ -282,7 +282,7 @@ section + #disqus_thread {
 
       margin-bottom: 20px;
       display: inline-block;
-      
+
       &:not(:first-child) {
         margin-top: 50px;
       }

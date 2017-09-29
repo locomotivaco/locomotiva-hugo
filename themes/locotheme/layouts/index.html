@@ -21,6 +21,42 @@
     <script src="{{ .Site.BaseURL }}js/bg.js" crossorigin="anonymous" async></script>
 
     {{ partial "head-custom.html" . }}
+
+    <style>
+      .index-masthead {
+        color: #fff;
+        background: linear-gradient(-45deg, #ff00ea, #23A6D5, #23D5AB);
+      	background-size: 400% 400%;
+      	-webkit-animation: Gradient 15s ease infinite;
+      	-moz-animation: Gradient 15s ease infinite;
+      	animation: Gradient 15s ease infinite;
+      }
+      .index-masthead {
+        transform: skew(0deg, -3deg);
+        margin-top: -200px;
+      }
+      .index-masthead .content {
+        transform: skew(0deg, 3deg);
+        padding-top: 250px;
+      }
+
+      .index-masthead h1,
+      .index-masthead h1.logo,
+      .index-masthead h3 {
+        color: white;
+      }
+      @keyframes Gradient {
+      	0% {
+      		background-position: 0% 50%
+      	}
+      	50% {
+      		background-position: 100% 50%
+      	}
+      	100% {
+      		background-position: 0% 50%
+      	}
+      }
+</style>
   </head>
 
   <body>
@@ -69,23 +105,35 @@
         <div class="container">
             <h2>Nosso trabalho</h2>
             <p>Nós da Locomotiva somos apaixonados por desenvolver e construir grandes ideias. Nosso time está sempre pronto para utilizar as mais recentes práticas, linguagens e tecnologias disponíveis para seu projeto, provendo uma grande fama de diferentes serviços que se adaptam às necessidades de sua companhia.</p>
-            
+
             <div class="clients-row">
-                <div class="col-sm-2 col-xs-4">
-                    <img src="/img/acegroup.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-2 col-xs-4">
-                    <img src="/img/atualizecar.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-2 col-xs-4">
-                    <img src="/img/bandtripper.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-2 col-xs-4">
-                    <img src="/img/eun.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-2 col-xs-4">
-                    <img src="/img/lefooding.png" alt="" class="img-fluid">
-                </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/acegroup.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/atualizecar.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/bandtripper.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/eun.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/lefooding.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/ebanx.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/candyshop.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/grupoboticario.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-sm-2 col-xs-4">
+                <img src="/img/luztr.png" alt="" class="img-fluid">
+              </div>
             </div>
         </div>
     </section>
@@ -132,12 +180,12 @@
                 <h4>Background em startups</h4>
                 <p>Nosso background em startups nos dá o diferencial de estarmos sempre atualizados e em contato com toda nova tecnologia valiosa.</p>
                 <p>Temos o entendimento necessário para entender os usuários e seus hábitos de consumo.</p>
-                
+
                 <span class="icon-sale"></span>
                 <h4>Você focado em suas operações</h4>
                 <p>Com a gente, você tem um parceiro de verdade que estará sempre trabalhando para melhorar o software da empresa.</p>
                 <p>Sem preocupações com gerenciamento de seus projetos de tecnologia ou supervisão constante, nós entendemos suas necessidades e apresentamos resultados palpáveis.</p>
-                
+
                 <span class="icon-target"></span>
                 <h4>Trabalho remoto</h4>
                 <p>Nosso time trabalha com produtividade máxima e no ambiente correto, sem acrescentar custos para sua logística diária.</p>
